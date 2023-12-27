@@ -8,11 +8,56 @@ body {
 a {
   text-decoration: none;
 }
+.section {
+  padding: 120px 0;
+}
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-header nav {
+  display: flex;
+  gap: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.container {
+  /* max-width: 1158px; */
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* header */
+.page-header .logo {
+  padding: 25.5px;
+}
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -68,6 +113,10 @@ ol {
 .hero-image {
   background-color: #2e2f42;
 }
+.hero-image .container {
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
 .hero-image-title {
   font-size: 56px;
   font-style: normal;
@@ -76,6 +125,8 @@ ol {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  /* padding-top: 188px; */
+  /* padding-bottom: 292px; */
 }
 .hero-image-button {
   cursor: pointer;
@@ -87,6 +138,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  /* padding-top: 356px; */
+  /* padding-bottom: 188px; */
 }
 .hero-image-button:hover,
 .hero-image-button:focus {
@@ -162,4 +215,22 @@ ol {
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  /* padding-top: 140px; */
+  /* padding-bottom: 100px; */
 }
+.footer .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 17.5px;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+/* .footer .container .logo { 
+  padding-top: 101.5px;
+  padding-bottom: 189.5px;
+}
+.footer .container .footer-text {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}*/
