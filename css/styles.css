@@ -62,7 +62,6 @@ header {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -72,7 +71,6 @@ header {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -82,7 +80,6 @@ header {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -91,6 +88,7 @@ header {
 .nav-list-link {
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .nav-list-link:hover,
@@ -102,8 +100,8 @@ header {
 }
 .address-list-link {
   color: #434455;
-  font-weight: 400;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .address-list-link:hover,
 .address-list-link:focus {
@@ -119,7 +117,6 @@ header {
 }
 .hero-image-title {
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -132,9 +129,6 @@ header {
   cursor: pointer;
   background: var(--IRIS, #4d5ae5);
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -149,13 +143,13 @@ header {
 .feature-title {
   font-size: 20px;
   color: #2e2f42;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .feature-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 /* section-3 */
 .team-section {
@@ -165,7 +159,6 @@ header {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -174,7 +167,6 @@ header {
 .team-section-name {
   font-size: 20px;
   color: #2e2f42;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -183,15 +175,14 @@ header {
   background-color: #ffffff;
 }
 .team-section-list-text {
-  font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 /* section-4 */
 .portfolio-section-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -200,13 +191,13 @@ header {
 .portfolio-section-name {
   font-size: 20px;
   color: #2e2f42;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-section-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 /* footer */
 .footer {
@@ -215,6 +206,7 @@ header {
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  line-height: 1.5;
   /* padding-top: 140px; */
   /* padding-bottom: 100px; */
 }
