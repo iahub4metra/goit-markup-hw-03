@@ -30,10 +30,9 @@ p {
 }
 
 .container {
-  max-width: 1158px;
-  box-sizing: content-box;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -185,7 +184,11 @@ header {
 .team-section {
   background-color: #f4f4fd;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
 .team-section-title {
   color: #2e2f42;
   text-align: center;
@@ -194,6 +197,7 @@ header {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-section-name {
   font-size: 20px;
@@ -201,13 +205,20 @@ header {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-section-list-item {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: calc((1128px - 72px) / 4);
 }
 .team-section-list-text {
   letter-spacing: 0.02em;
   line-height: 1.5;
+  margin-bottom: 32px;
 }
 /* section-4 */
 .portfolio-section-title {
