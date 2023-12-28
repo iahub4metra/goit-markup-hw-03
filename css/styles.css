@@ -126,6 +126,10 @@ header {
 .hero-image .container {
   padding-top: 68px;
   padding-bottom: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero-image-title {
   font-size: 56px;
@@ -134,8 +138,7 @@ header {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  /* padding-top: 188px; */
-  /* padding-bottom: 292px; */
+  margin-bottom: 48px;
 }
 .hero-image-button {
   cursor: pointer;
@@ -226,20 +229,8 @@ header {
   margin-top: 17.5px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  /* padding-top: 140px; */
-  /* padding-bottom: 100px; */
 }
-/*.footer .container {
-display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 17.5px;
-}*/
-/* .footer .container .logo { 
+.footer .container {
   padding-top: 101.5px;
-  padding-bottom: 189.5px;
-}
-.footer .container .footer-text {
-  padding-top: 140px;
   padding-bottom: 100px;
-}*/
+}
