@@ -159,17 +159,27 @@ header {
 .hidden-title {
   display: none;
 }
-
+.feature-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-list li {
+  flex-basis: calc((1128px - 72px) / 4);
+}
 .feature-title {
   font-size: 20px;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-text {
   letter-spacing: 0.02em;
   line-height: 1.5;
+  width: 264px;
 }
 /* section-3 */
 .team-section {
